@@ -13,7 +13,7 @@ public class HelloWorldController {
 	public ResponseEntity<String> helloWorld() {
 		
 		
-		return ResponseEntity.ok("Hello world");
+		return ResponseEntity.ok("Hello world !");
 	}
 	
 }
