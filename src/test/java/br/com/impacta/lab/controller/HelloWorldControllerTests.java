@@ -35,7 +35,7 @@ public class HelloWorldControllerTests {
 		
 		String response = result.getResponse().getContentAsString();
 		
-		assertEquals("Hello world !", response);
+		assertEquals("Hello world !".toUpperCase(), response.toUpperCase());
 		
 	}
 	
